@@ -1,0 +1,174 @@
+.fs-8 {
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.589);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navcon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-div-1 {
+    flex: 15%;
+    justify-content: flex-start;
+}
+
+.nav-div-2 {
+    flex: 70%;
+    justify-content: center;
+}
+
+.nav-div-3 {
+    flex: 15%;
+    justify-content: flex-end;
+}
+
+.me-6 {
+    margin-right: 6rem;
+}
+
+.sec2 {
+    background-image: url(./bg1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+
+.slider-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.silder-div {
+    flex: 33.33%;
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-button {
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(78, 78, 78);
+    border-radius: 30px;
+}
+
+.bg-2 {
+    background-image: url(./bg2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.bg-3 {
+    background-image: url(./bg3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.bg-4 {
+    background-image: url(./1a1b9415-c577-4dfd-b154-3fab572f981d.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.bg-5 {
+    background-image: url(./nike-just-do-it1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.bg-6 {
+    background-image: url(./ecc7a436-8cb8-4694-b192-0b59977609ea.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.bg-7 {
+    background-image: url(./fba709f4-e070-40f6-a25c-2b4699826f39.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+.bg-8 {
+    background-image: url(./6a646dd4-24e4-4d14-847f-84c9f8311635.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+.bg-9 {
+    background-image: url(./f739a452-a66e-46de-a6c5-d0e6bca3ca09.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+.text-white-low{
+    color: rgb(167, 167, 167);
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .hide {
+        display: none;
+    }
+
+    .nav-form {
+        left: 0 !important;
+    }
+
+    .silder-div {
+        flex: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .sec2 {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 33vh;
+    }
+    .lp{
+        margin-top: 50vh !important;
+    }
+    .social-box{
+    justify-content: flex-start !important;
+    margin-right: 40px !important;
+    margin-top: 30px !important;
+    }
+}
