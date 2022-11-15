@@ -90,7 +90,7 @@
 }
 .bg-4 {
     background-image: url(./1a1b9415-c577-4dfd-b154-3fab572f981d.webp);
-    background-position: center center;
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -170,5 +170,9 @@
     justify-content: flex-start !important;
     margin-right: 40px !important;
     margin-top: 30px !important;
+    }
+    .slider-img{
+        width: 200px;
+        height: 200px;
     }
 }
