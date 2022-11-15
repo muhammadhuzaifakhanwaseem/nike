@@ -134,13 +134,17 @@
     height: 60vh;
 }
 
-
+.text-center-my{
+    text-align: center;
+}
 
 .text-white-low{
     color: rgb(167, 167, 167);
 }
 
-
+.endsale{
+    font-size: 1.4rem !important;
+}
 
 @media screen and (max-width: 750px) {
     .hide {
@@ -161,7 +165,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 33vh;
+        height: 20vh;
     }
     .lp{
         margin-top: 50vh !important;
@@ -172,7 +176,22 @@
     margin-top: 30px !important;
     }
     .slider-img{
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        height: 280px;
+    }
+    .show{
+        display: block;
+    }
+    .fhead{
+        font-size: calc(4.525rem + 3.3vw) !important;
+        font-family: emoji;
+        line-height: 76px !important;
+        padding: 30px 30px !important;
+    }
+    .endsale{
+        font-size: 1em !important;
+    }
+    .text-sm-start{
+        text-align: left !important;
     }
 }
