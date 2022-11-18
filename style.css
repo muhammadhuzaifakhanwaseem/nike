@@ -9,7 +9,13 @@
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
-
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+}
 .navcon {
     display: flex;
     flex-direction: row;
